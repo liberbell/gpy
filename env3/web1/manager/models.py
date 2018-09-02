@@ -49,6 +49,7 @@ class Manager(models.Model):
     DEP_BUSINESS = 40  # 業務
     DEP_DISTR = 45  # 流通
     DEP_IS = 50  # 情報システム
+    DEP_TC = 55 #TC
 
     # 人
     person = models.ForeignKey('Person')
